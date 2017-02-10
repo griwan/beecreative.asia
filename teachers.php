@@ -55,7 +55,7 @@
         <img src="<?php echo $fileName;?>" class="img-circle" alt="" style="border:5px solid #d9d9d9;">
       </a>
       <h4><?php echo $teacherData['FirstName']." ".$teacherData['BichakoName']." ".$teacherData['LastName']?></h4>
-      <p class="text-muted">Lead Teacher</p>
+      <br>
       <div class="collapse <?php echo $teacherData['FirstName']?>">
         <p><?php echo $teacherData['Bio']; ?></p>
       </div>

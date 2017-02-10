@@ -22,8 +22,13 @@
   color:white; 
 
   }
-  	.cluster-img {height:380px; 
-       	width:300px;}
+  .cluster-img {
+    height:500px; 
+    width:350px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px; 
+  }
 
 </style>
  
@@ -35,7 +40,12 @@
 <div>
   <center>
 		   <br><br>
-		   <h1 class="page-header">Cluster Information</h1>
+		   <h3 class="page-header" style="width: 70%;">Cluster</h3>
+       <div class="ClusterInfo" style="width: 60%;">
+         <p>
+           Clusters are a group of 6 - 8 classes that result in a coherent learning experience? Each cluster is organized to explore a specific topic or focus area of the curriculum in depth while also building interdisciplinary skills.
+         </p>
+        </div>
   </center>
 </div>
 <div class="container">
@@ -60,7 +70,6 @@
       <img class="cluster-img" src="<?php echo $filename[0];?>" style="" />
     </a>
 </div>
-
 <?php }}?>
 		</div>
 </div>
