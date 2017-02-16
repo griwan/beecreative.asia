@@ -16,6 +16,7 @@
     background-color: #ffffff;
     opacity: 0.9;
     border:1px solid white;
+    margin-right: 1%;
     height:50px;
     width:180px;
   }
