@@ -12,11 +12,12 @@
   <link href="css/agency.css" rel="stylesheet">
 <style type="text/css">
   .btn{
-    color:white; 
-    background-color:transparent;
+    color:#000000; 
+    background-color: #ffffff;
+    opacity: 0.9;
     border:1px solid white;
     height:50px;
-    width:150px;
+    width:180px;
   }
 
   .btn:hover{
@@ -56,18 +57,6 @@
 
 
 </style>
-  
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-91844389-1', 'auto');
-  ga('send', 'pageview');
-
-</script>  
-  
 </head>
 
 <body bgcolor="#eef2d5"> 
@@ -95,7 +84,7 @@
       </li>
     </ul>
   </div>
-  <h3 style="padding-bottom: 50px; color:white; font-size:60px;  ">
+  <h3 style="padding-bottom: 5%; color:white; font-size:60px;  ">
     “FUN CO-CURRICULAR ACTIVITIES FOR MIDDLE SCHOOL”
   </h3>
 </center>
@@ -103,6 +92,7 @@
 <center>       
   <div class="btngroup" style="padding-bottom: 48px;">
     <a class="navbtn" href="#aboutus"><button class="btn" ><b>About Us</b></button></a>
+    <a class="navbtn" href="requestBC.php" target="_blank"><button class="btn" ><b>Request BeeCreative</b></button></a>
   </div>                     
 </center>
    
