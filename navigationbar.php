@@ -1,8 +1,8 @@
 <div class="header">
-  <nav class="navbar-fixed-top" id="navbar-custom" style="border-bottom:2px solid #d9d9d9; ">
+  <nav class="navbar-fixed-top" id="navbar-custom" style="border-bottom:2px solid #d9d9d9;">
     <div class="container"> 
-      <a class="nav navbar-nav navbar-left" href="../new">
-        <img src="img/bc.png" height="40px" />
+      <a class="nav navbar-nav navbar-left" href="../">
+        <img src="img/bc.png" height="35s" />
       </a>
 
       <button class="navbar-toggle" data-toggle="collapse" data-target=".navbarHeaderCollapse" >
@@ -13,9 +13,9 @@
             
       <div class="collapse navbar-collapse navbarHeaderCollapse">
 
-        <ul class="nav navbar-nav navbar-right" style="font-size:16px;">
-          <li style="font-size: 10px;">Website Under Construction!</li>
-          <li class="active"><a  href="../new"><b>HOME</b></a></li>
+        <ul class="nav navbar-nav navbar-right" style="font-size: 100%;">
+          <li style="font-size: 80%;">Website Under Construction!</li>
+          <li class="active"><a  href="../"><b>HOME</b></a></li>
           <li role="presentation" class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               <b>OUR TEAM</b>
