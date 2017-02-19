@@ -79,18 +79,6 @@
 
 
 </style>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-91844389-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 </head>
 
 <body bgcolor="#eef2d5"> 
@@ -151,11 +139,52 @@
     </div>
   </div>
 </div>
+
+<div id="bcmedia" style="background-color:#f1f2ea; border:40px solid white; margin-top: 0px; border-top: 20px;">
+  <div class="container-fluid" style="width: 100%; background: #f1f2ea;">
+    <center><h1 style="color:#e6b800;">Social Media</h1></center>
+
+    <div class="row" style="padding: 5px;">
+      
+
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6 col-xs-12 ">
+          <div class="embed-responsive embed-responsive-4by3">
+              <div class="embed-responsive embed-responsive-item">
+                <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLetsBeeCreativeNow%2Fvideos%2F1195236997219671%2F&show_text=1&width=560" class="embed-responsive-item"></iframe>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-5 col-xs-12">
+          <div class="embed-responsive embed-responsive-4by3" style="min-height: 430px !important;">
+            <div class="embed-responsive embed-responsive-item">
+                <iframe class="embed-responsive embed-responsive-item" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLetsBeeCreativeNow%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden" scrolling="no" height="500" frameborder="0" allowTransparency="true"></iframe>    
+            </div>
+          </div>          
+        </div>
+        
+      
+    </div>
+
+  </div>
+</div>
+
 </div>
  <?php include_once('footer.php'); ?>
 <script src="js/jquery.js"></script>
 <script src="shrink.js"></script>
 <script src="js/bootstrap.min.js"></script>
- 
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91844389-1', 'auto');
+  ga('send', 'pageview');
+  
+
+</script>
 </body>
 </html>
