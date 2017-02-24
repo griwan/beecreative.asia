@@ -119,8 +119,12 @@
 </a>
 <center>       
   <div class="btngroup" style="padding-bottom: 10%;">
-    <a class="navbtn" href="#aboutus"><button class="btn" ><b>About Us</b></button></a>
-    <a class="navbtn" href="requestBC.php" target="_blank"><button class="btn" ><b>Request BeeCreative</b></button></a>
+    <a class="navbtn" href="#aboutus">
+      <button class="btn" ><b>About Us</b></button>
+    </a>
+    <a class="navbtn" href="requestBC.php" target="_blank">
+      <button class="btn" ><b>Request BeeCreative</b></button>
+    </a>
   </div>                     
 </center>
    
@@ -140,13 +144,27 @@
   </div>
 </div>
 
+<div id="bcvideo" style="background-color:#f1f2ea; border:40px solid white; margin-top: 0px; border-top: 20px;">
+  <div class="container-fluid" style="width: 100%; background: #f1f2ea;">
+    <div class="row" style="padding: 20px">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10 col-xs-12">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div class="embed-responsive embed-responsive-item">
+              <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FLetsBeeCreativeNow%2Fvideos%2F1201950253215012%2F&width=600&show_text=false&height=336&appId" width="600" height="336" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+</div>
+
 <div id="bcmedia" style="background-color:#f1f2ea; border:40px solid white; margin-top: 0px; border-top: 20px;">
   <div class="container-fluid" style="width: 100%; background: #f1f2ea;">
     <center><h1 style="color:#e6b800;">Social Media</h1></center>
 
     <div class="row" style="padding: 5px;">
-      
-
         <div class="col-sm-1"></div>
         <div class="col-sm-6 col-xs-12 ">
           <div class="embed-responsive embed-responsive-4by3">
@@ -162,12 +180,36 @@
             </div>
           </div>          
         </div>
-        
-      
     </div>
 
   </div>
 </div>
+
+<!--
+<div id="partnerOrgs" style="background-color:#f1f2ea; border:40px solid white; margin-top: 0px; border-top: 20px;">
+  <div class="container-fluid" style="width: 100%; background: #f1f2ea;">
+    <center><h1 style="color:#e6b800;">Partner Organizations</h1></center>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <marquee behaviour="scroll" scrollamount="10">
+          <?php
+            $files = glob("partner_organization/{*.jpg, *.gif, *.png}", GLOB_BRACE);
+            foreach($files as $photos)
+            {
+                
+          ?>
+            <img src="<?php echo $photos;?>" class="img-rounded" height="100">
+          <?php
+            }
+          ?>
+        </marquee>
+      </div>
+    </div>
+
+  </div>
+</div>
+-->
 
 </div>
  <?php include_once('footer.php'); ?>
@@ -175,7 +217,7 @@
 <script src="shrink.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
-                                 
+/*
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -183,7 +225,9 @@
 
   ga('create', 'UA-91844389-1', 'auto');
   ga('send', 'pageview');
-  
+  */
+
 </script>
+ 
 </body>
 </html>
