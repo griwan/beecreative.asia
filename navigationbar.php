@@ -14,7 +14,6 @@
       <div class="collapse navbar-collapse navbarHeaderCollapse">
 
         <ul class="nav navbar-nav navbar-right" style="font-size: 100%;">
-          <li style="font-size: 80%;">Website Under Construction!</li>
           <li class="active"><a  href="../"><b>HOME</b></a></li>
           <li role="presentation" class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
