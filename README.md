@@ -1,3 +1,3 @@
 # beecreative.asia
 
-Initial phases of creating BeeCreaive website
+The website www.beecreative.asia
