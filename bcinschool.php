@@ -1,3 +1,9 @@
+<?php
+  include_once('Mobile-Detect/Mobile_Detect.php');
+  $detect = new Mobile_Detect();
+  $mobile = $detect->isMobile();
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,12 +20,25 @@
 
 </style>
 </head>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91844389-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 <body>
 
 <?php include_once('navigationbar.php'); ?>
               
-  <div class="row" id="whyBC" style="margin-top:120px;">
-    <div class="container" style="background-color:#f1f2ea">
+  <div class="row" id="whyBC" style="margin-top: <?php echo $mobile?"40%":"6%"; ?>;">
+    <div class="container" style="background-color:#f1f2ea; 
+      <?php echo $mobile ? "width: 80%": "width: 90%;"; ;?>">
       <center><h2>WHY BEECREATIVE?</h2></center>
         <hr style="border-color: white;">
         <div class="col-md" style="font-size:18px;">

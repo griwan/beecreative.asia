@@ -1,8 +1,9 @@
    <footer style="background-color:black;">
         <div class="container">
-            <div class="row">
+        <center>
+            <div class="row" style="width: 100%;">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; BeeCreative 2017</span>
+                    <span class="copyright" style="color: white;">Copyright &copy; BeeCreative 2017</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -14,12 +15,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" style="color: white;">
                     <ul class="list-inline quicklinks">
-                        <li class="list-inline-item">Contact:+977-01-4412624
+                        <li class="list-inline-item">
+                            Contact:+977-01-4412624
                         </li>                
                     </ul>
                 </div>
             </div>
+        </center>
         </div>
     </footer>
